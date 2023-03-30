@@ -11,5 +11,5 @@ function weatherSearch(city) {
         });
 }
 window.onload = function () {
-    weatherSearch('Orlando');
+    weatherSearch();
 }
