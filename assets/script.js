@@ -28,8 +28,8 @@ function renderWeatherCards(data) {
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Temperature: ${data.list[index].main.temp} °F</li>
                     <li class="list-group-item">Humidity: ${data.list[index].main.humidity}%</li>
-                    <li class="list-group-item">Wind Speeds: ${data.list[index].wind.speed}MPH</li>
-                    <li class="list-group-item">Wind Gust: ${data.list[index].wind.gust}MPH</li>
+                    <li class="list-group-item">Wind Speeds: ${data.list[index].wind.speed} MPH</li>
+                    <li class="list-group-item">Wind Gust: ${data.list[index].wind.gust} MPH</li>
                 </ul>
             </div>
         </div>`

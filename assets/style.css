@@ -36,5 +36,15 @@ main {
 }
 #input-section{
     margin: auto;
-    width: 25%;
+    width: 350px;
+}
+@media screen and (max-width: 1000px) {
+    main{
+        width: 100vw;
+        margin-left: 0px;
+    }
+    #weather-card{
+        width: 60rem;
+        margin-right: auto;
+    }
 }
