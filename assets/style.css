@@ -2,11 +2,39 @@
     text-align: center;
     font-family: 'Merriweather', Helvetica, sans-serif;
 }
+
+header h1{
+    margin: 10px;
+}
+header{
+    padding: 10px;
+    margin: 20px;
+}
+footer{
+    margin: 40px;
+}
 footer p {
     font-size: smaller;
     line-height: 2;
 }
 main {
-    margin-left: auto;
-    margin-right: auto;
+    width: 50%;
+    margin: auto;
+}
+#icon-image{
+    width: 100px;
+    margin: auto;
+}
+#weather-card{
+    margin: auto;
+    width: 90rem;
+    padding: 5px;
+}
+.card-item-padding{
+    padding: 5px;
+    margin: 5px;
+}
+#input-section{
+    margin: auto;
+    width: 25%;
 }

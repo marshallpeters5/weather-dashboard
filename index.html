@@ -19,16 +19,15 @@
 
 <body>
     <header>
-        <h1></h1>
+        <h1>Weather Dashboard</h1>
+        <p>Begin typing a city name to display forecast information.</p>
     </header>
     <main>
-        <div class="input-group mb-3">
+        <div class="input-group mb-3" id="input-section">
             <input id='city-input' type="text" class="form-control" placeholder="e.g. Orlando" aria-label="e.g. Orlando" aria-describedby="button-addon2">
             <button class="btn btn-outline-secondary add-city" type="button" id="button-addon2">Add City</button>
           </div>
-        <section id="weather-card">
-            
-        </section>
+        <section id="weather-card" class="row justify-content-center"></section>
         <footer>
             <p>A simple yet powerful weather application.<br><small>Marshall Peters 2023<sub>©</sub></small></p>
         </footer>
