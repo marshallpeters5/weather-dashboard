@@ -5,7 +5,7 @@ function weatherSearch() {
     fetch(queryURL)
         .then(function (resp) { return resp.json() })
         .then(function (data) {
-            console.log(data);
+            renderWeatherCards(data);
         })
         .catch(function () {
         });
@@ -14,4 +14,8 @@ window.onload = function () {
     weatherSearch();
 }
 
+function renderWeatherCards(data) {
+    for (let index = 0; index < data.list.length; index = index + 8) {
+    }
+}
 document.querySelector(".add-city").addEventListener("click", weatherSearch);
