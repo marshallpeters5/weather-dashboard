@@ -25,13 +25,18 @@
     <main>
         <div class="input-group mb-3" id="input-section">
             <input id='city-input' type="text" class="form-control" placeholder="e.g. Orlando" aria-label="e.g. Orlando" aria-describedby="button-addon2">
-            <button class="btn btn-outline-secondary add-city" type="button" id="button-addon2">Add City</button>
+            <button class="btn btn-outline-secondary add-city-btn" type="button" id="button-addon2">Add City</button>
           </div>
+          <h2 id="user-input"></h2>
         <section id="weather-card" class="row justify-content-center"></section>
+        <aside>
+            <ul id="search-history"></ul>
+        </aside>
         <footer>
             <p>A simple yet powerful weather application.<br><small>Marshall Peters 2023<sub>©</sub></small></p>
         </footer>
     </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="./assets/script.js"></script>
 </body>
 
